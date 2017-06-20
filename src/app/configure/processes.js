@@ -1,5 +1,5 @@
 import config from 'utils/config';
-import { buildProcesses } from 'rsp';
+import { buildProcesses } from 'redux-saga-process';
 
 import * as processes from 'processes';
 
@@ -26,6 +26,7 @@ function handleConfigureProcess(processFactory, processID, processPath) {
 }
 
 export default function configureProcesses() {
+  console.log('Config Proc');
   /**
    * buildProcesses
    *

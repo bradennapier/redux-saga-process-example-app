@@ -1,4 +1,4 @@
-import { Process } from 'rsp';
+import { Process } from 'redux-saga-process';
 
 import { call, put, select } from 'redux-saga/effects';
 

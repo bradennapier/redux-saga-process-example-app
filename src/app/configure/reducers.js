@@ -4,7 +4,6 @@ import config from 'utils/config';
 
 import configureProcesses from './processes';
 
-console.log('Configure Reducers');
 const { processReducers } =
   (config('processes.enabled') && configureProcesses()) || {};
 

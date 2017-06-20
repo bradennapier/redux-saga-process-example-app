@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './Home.css';
 
 import config from 'utils/config';
-import { connectProcesses } from 'rsp';
+import { connectProcesses } from 'redux-saga-process';
 import { connect } from 'react-redux';
 
 class Home extends Component {
   render() {
-    console.log(this);
+    // console.log(this);
     return (
       <div className="App">
         <div className="App-header">

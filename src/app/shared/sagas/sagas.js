@@ -1,5 +1,5 @@
 import { fork, cancelled } from 'redux-saga/effects';
-import { runProcesses } from 'rsp';
+import { runProcesses } from 'redux-saga-process';
 
 export default function* rootSaga() {
   try {
