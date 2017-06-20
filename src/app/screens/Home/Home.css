@@ -1,0 +1,66 @@
+.App {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+.App-logo {
+  position: absolute;
+  animation: App-logo-spin infinite 120s linear;
+  height: 60px;
+  z-index: 2;
+  filter: drop-shadow(1px 1px 1px black) blur(1px);
+  opacity: 0.6;
+}
+
+img.App-logo {
+  object-fit: contain;
+  height: 100%;
+  width: 125px;
+}
+
+.App-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121519;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Dash-logo {
+  position: absolute;
+  transform: translateX(-8px);
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  z-index: 3;
+  opacity: 0.93;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+img.Dash-logo {
+  object-fit: contain;
+  height: 100%;
+  width: 350px;
+}
+
+.App-header h2 {
+  position: absolute;
+  bottom: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
